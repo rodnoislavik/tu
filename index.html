@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ООО "Товары и услуги" — Каталог</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+  <meta name="description" content="Качественные товары и услуги для вашего бизнеса">
+</head>
+<body>
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <div class="contacts">
+        <span class="ic">📞</span> <span>+7 (771) 961-46-20</span>
+        <span class="sep">•</span>
+        <span class="ic">✉</span> <span>info@tovary-uslugi.ru</span>
+      </div>
+      <div class="work-years">Работаем с 1995 года</div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="logo">ТУ</div>
+        <div class="brand-text">
+          <div class="name">ООО "Товары и услуги"</div>
+          <div class="tag">Ваш надежный партнeр</div>
+        </div>
+      </div>
+
+      <nav class="main-nav">
+        <a class="active" href="#home">Главная</a>
+        <a href="#catalog">Каталог</a>
+        <a href="#about">О компании</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+
+  <section id="home" class="hero">
+    <div class="container hero-inner">
+      <div class="hero-left">
+        <div class="badge">Надежный партнер с 1995 года</div>
+        <h1>Качественные товары и услуги для вашего бизнеса</h1>
+        <p class="lead">Широкий ассортимент продукции, профессиональная консультация и индивидуальный подход к каждому клиенту</p>
+        <div class="hero-links">
+          <a class="btn ghost" href="#catalog">Каталог товаров</a>
+          <a class="btn" href="#about">Узнать больше</a>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="hero-image" role="img" aria-hidden="true"></div>
+      </div>
+    </div>
+
+
+    <div class="stats">
+      <div class="container stats-inner">
+        <div class="stat"><div class="num">28+</div><div class="label">Лет на рынке</div></div>
+        <div class="stat"><div class="num">5000+</div><div class="label">Довольных клиентов</div></div>
+        <div class="stat"><div class="num">15000+</div><div class="label">Выполненных заказов</div></div>
+        <div class="stat"><div class="num">99%</div><div class="label">Положительных отзывов</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="why container">
+    <h2>Почему выбирают нас</h2>
+    <p class="sub">Мы предлагаем комплексные решения для вашего бизнеса с гарантией качества и профессиональной поддержкой</p>
+
+    <div class="cards">
+      <article class="card">
+        <div class="icon">🏅</div>
+        <h3>Качество гарантировано</h3>
+        <p>Работаем только с проверенными поставщиками и производителями</p>
+      </article>
+      <article class="card">
+        <div class="icon">🛡️</div>
+        <h3>Надежность</h3>
+        <p>Более 28 лет успешной работы на рынке</p>
+      </article>
+      <article class="card">
+        <div class="icon">🤝</div>
+        <h3>Индивидуальный подход</h3>
+        <p>Каждому клиенту уделяем максимум внимания</p>
+      </article>
+      <article class="card">
+        <div class="icon">⚡</div>
+        <h3>Оперативность</h3>
+        <p>Быстрая обработка заказов и доставка</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="about" class="about container">
+    <div class="about-inner">
+      <div class="about-media">
+        <img src="t.jpg" alt="Здание компании">
+      </div>
+      <div class="about-text">
+        <h2>О компании</h2>
+        <p>ООО "Товары и услуги" работает на рынке с 1995 года и является одной из старейших и наиболее известных компаний в своем регионе. За годы работы мы заслужили доверие тысяч клиентов благодаря высокому качеству продукции и профессиональному сервису.</p>
+        <p>Наша миссия — предоставлять надежные решения для бизнеса, помогая нашим клиентам достигать их целей. Мы постоянно развиваемся, внедряя современные технологии и расширяя ассортимент товаров и услуг.</p>
+
+        <ul class="checklist">
+          <li>Широкий ассортимент товаров и услуг</li>
+          <li>Конкурентные цены</li>
+          <li>Профессиональная консультация</li>
+          <li>Гарантийное обслуживание</li>
+          <li>Гибкая система скидок</li>
+          <li>Доставка по всей России</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="catalog" class="catalog container">
+    <h2>Каталог товаров и услуг</h2>
+    <p class="sub">Широкий ассортимент качественной продукции и профессиональных услуг</p>
+
+    <div class="catalog-controls">
+      <input class="search" id="search" placeholder="Поиск товаров и услуг...">
+      <div class="filters">
+        <button class="filter active" data-cat="all">Все</button>
+        <button class="filter" data-cat="equipment">Оборудование</button>
+        <button class="filter" data-cat="services">Услуги</button>
+        <button class="filter" data-cat="goods">Товары</button>
+      </div>
+      <select class="sort" id="sort">
+        <option value="popular">По популярности</option>
+        <option value="price-desc">По цене (убыв.)</option>
+        <option value="price-asc">По цене (возр.)</option>
+      </select>
+    </div>
+
+    <div class="products-grid" id="products">
+      <article class="product card-product" data-cat="equipment" data-price="125000" data-pop="90">
+        <div class="imgwrap">
+          <div class="badge">Хит продаж</div>
+          <img src="a.jpg" alt="Офисное оборудование">
+          <button class="fav" aria-label="Добавить в избранное">♡</button>
+        </div>
+        <div class="meta">Оборудование</div>
+        <h3 class="title">Офисное оборудование премиум-класса</h3>
+        <p class="desc">Комплект офисного оборудования для эффективной работы</p>
+        <div class="price">125 000 тг <span class="old">150 000 тг</span></div>
+        <div class="product-foot">
+          <div class="instock">● В наличии</div>
+          <a class="more" href="#">Подробнее</a>
+        </div>
+      </article>
+
+      <article class="product card-product" data-cat="services" data-price="75000" data-pop="80">
+        <div class="imgwrap">
+          <div class="badge">Популярное</div>
+          <img src="as.jpg" alt="Консультационные услуги">
+          <button class="fav" aria-label="Добавить в избранное">♡</button>
+        </div>
+        <div class="meta">Услуги</div>
+        <h3 class="title">Консультационные услуги по развитию бизнеса</h3>
+        <p class="desc">Профессиональная консультация от экспертов с опытом 20+ лет</p>
+        <div class="price">75 000 тг</div>
+        <div class="product-foot">
+          <div class="instock">● В наличии</div>
+          <a class="more" href="#">Подробнее</a>
+        </div>
+      </article>
+
+      <article class="product card-product" data-cat="equipment" data-price="250000" data-pop="70">
+        <div class="imgwrap">
+          <div class="badge purple">Новинка</div>
+          <img src="r.jpg" alt="Автоматизация">
+          <button class="fav" aria-label="Добавить в избранное">♡</button>
+        </div>
+        <div class="meta">Оборудование</div>
+        <h3 class="title">Технологические решения для автоматизации</h3>
+        <p class="desc">Современные системы автоматизации бизнес-процессов</p>
+        <div class="price">250 000 тг <span class="old">290 000 тг</span></div>
+        <div class="product-foot">
+          <div class="instock">● В наличии</div>
+          <a class="more" href="#">Подробнее</a>
+        </div>
+      </article>
+
+      <article class="product card-product" data-cat="services" data-price="95000" data-pop="55">
+        <div class="imgwrap">
+          <img src="q.jpg" alt="Партнерство">
+          <button class="fav" aria-label="Добавить в избранное">♡</button>
+        </div>
+        <div class="meta">Услуги</div>
+        <h3 class="title">Партнерские программы и сопровождение</h3>
+        <p class="desc">Долгосрочное партнерство с полным сопровождением проектов</p>
+        <div class="price">95 000 тг</div>
+        <div class="product-foot">
+          <div class="instock">● В наличии</div>
+          <a class="more" href="#">Подробнее</a>
+        </div>
+      </article>
+
+      <article class="product card-product" data-cat="goods" data-price="45000" data-pop="45">
+        <div class="imgwrap">
+          <img src="w.jpg" alt="Продукция">
+          <button class="fav" aria-label="Добавить в избранное">♡</button>
+        </div>
+        <div class="meta">Товары</div>
+        <h3 class="title">Качественная продукция для бизнеса</h3>
+        <p class="desc">Широкий выбор сертифицированной продукции</p>
+        <div class="price">45 000 тг</div>
+        <div class="product-foot">
+          <div class="instock">● В наличии</div>
+          <a class="more" href="#">Подробнее</a>
+        </div>
+      </article>
+
+      <article class="product card-product" data-cat="services" data-price="180000" data-pop="65">
+        <div class="imgwrap">
+          <img src="6.jpg" alt="Корпоративные решения">
+          <button class="fav" aria-label="Добавить в избранное">♡</button>
+        </div>
+        <div class="meta">Услуги</div>
+        <h3 class="title">Корпоративные решения под ключ</h3>
+        <p class="desc">Комплексные решения для крупного бизнеса</p>
+        <div class="price">180 000 тг <span class="old">220 000 тг</span></div>
+        <div class="product-foot">
+          <div class="instock">● В наличии</div>
+          <a class="more" href="#">Подробнее</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="container">
+      <h3>Не нашли то, что искали?</h3>
+      <p>Свяжитесь с нами, и мы подберем индивидуальное решение для вас</p>
+      <a class="btn" href="#contacts">Связаться с нами</a>
+    </div>
+  </section>
+
+
+  <footer id="contacts" class="site-footer">
+    <div class="container footer-inner">
+      <div class="foot-brand">
+        <div class="logo small">ТУ</div>
+        <div>
+          <div class="name">ООО "Товары и услуги"</div>
+          <div class="desc">Надежный партнер в сфере поставки качественных товаров и предоставления профессиональных услуг с 1995 года.</div>
+        </div>
+      </div>
+
+      <div class="foot-cols">
+        <div class="col">
+          <h4>Быстрые ссылки</h4>
+          <a href="#">Главная</a>
+          <a href="#catalog">Каталог</a>
+          <a href="#about">О компании</a>
+          <a href="#contacts">Контакты</a>
+        </div>
+        <div class="col">
+          <h4>Наши услуги</h4>
+          <a href="#">Консультации</a>
+          <a href="#">Поставка товаров</a>
+          <a href="#">Техническая поддержка</a>
+          <a href="#">Гарантийное обслуживание</a>
+        </div>
+        <div class="col">
+          <h4>Контакты</h4>
+          <div>г. Кокшетау, ул. Примерная, д. 1, офис 100</div>
+          <div>+7 (771) 961-46-20</div>
+          <div>info@tovary-uslugi.ru</div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">© 2025 ООО "Товары и услуги". Все права защищены.</div>
+  </footer>
+
+<script>
+
+(function(){
+  const search = document.getElementById('search');
+  const filters = document.querySelectorAll('.filter');
+  const sort = document.getElementById('sort');
+  const productsWrap = document.getElementById('products');
+
+
+  const products = Array.from(productsWrap.querySelectorAll('.product'));
+
+
+  function refreshList(){
+    const activeCat = document.querySelector('.filter.active')?.dataset.cat || 'all';
+    const q = search.value.trim().toLowerCase();
+
+    products.forEach(p=>{
+      const title = p.querySelector('.title').textContent.toLowerCase();
+      const cat = p.dataset.cat || '';
+      const matchesCat = (activeCat === 'all') || (cat === activeCat);
+      const matchesQuery = title.includes(q);
+      p.style.display = (matchesCat && matchesQuery) ? '' : 'none';
+    });
+    applySort(); 
+  }
+
+
+  filters.forEach(btn=>{
+    btn.addEventListener('click', ()=>{
+      filters.forEach(b=>b.classList.remove('active'));
+      btn.classList.add('active');
+      refreshList();
+    });
+  });
+
+
+  search.addEventListener('input', debounce(refreshList, 180));
+
+  function applySort(){
+    const mode = sort.value;
+
+    const visible = products.filter(p=>p.style.display !== 'none');
+
+    let sorted;
+    if(mode === 'popular'){
+      sorted = visible.slice().sort((a,b)=> (Number(b.dataset.pop) || 0) - (Number(a.dataset.pop) || 0));
+    } else if(mode === 'price-desc'){
+      sorted = visible.slice().sort((a,b)=> (Number(b.dataset.price) || 0) - (Number(a.dataset.price) || 0));
+    } else if(mode === 'price-asc'){
+      sorted = visible.slice().sort((a,b)=> (Number(a.dataset.price) || 0) - (Number(b.dataset.price) || 0));
+    } else {
+      sorted = visible;
+    }
+
+    sorted.forEach(node => productsWrap.appendChild(node));
+  }
+
+  sort.addEventListener('change', applySort);
+
+
+  products.forEach(p=>{
+    const fav = p.querySelector('.fav');
+    fav.addEventListener('click', (e)=>{
+      e.preventDefault();
+      fav.classList.toggle('active');
+      fav.textContent = fav.classList.contains('active') ? '♥' : '♡';
+    });
+  });
+
+
+  function debounce(fn, ms){
+    let t;
+    return function(){
+      clearTimeout(t);
+      t = setTimeout(()=>fn.apply(this, arguments), ms);
+    };
+  }
+
+
+  applySort();
+})();
+</script>
+</body>
+</html>
